@@ -168,7 +168,7 @@
 .plate-bottom {
   position: relative;
 
-  top: 20%;
+  top: 0%;
   left: 25%;
 
   width: 250px;
@@ -179,7 +179,7 @@
 
   background: #e4e4e4;
 
-  transform: rotate(160deg)
+  transform: rotate(170deg)
 }
 
 .plate-inner {
@@ -193,8 +193,37 @@
 
   -webkit-clip-path: polygon(9% 0%, 100% 1%, 100% 100%, 9% 100%, 0% 50%);
   clip-path: polygon(9% 0%, 100% 1%, 100% 100%, 9% 100%, 0% 50%);
+}
 
+.red {
+  background: #d14942;
+}
+
+.yellow {
   background: #f4c844;
+}
+
+.plate-image {
+  position: relative;
+  height: 51px;
+  width: auto;
+}
+
+.freebee {
+  position: relative;
+  top: 19%;
+  left: 13%;
+}
+
+.misc {
+  position: relative;
+  top: 19%;
+  left: 13%;
+
+  -webkit-transform: otate(180deg) translatez(0);
+  transform: rotate(180deg) translatez(0);
+  backface-visibility: hidden;
+  filter: blur(0);
 }
 
 .nail-1 {
