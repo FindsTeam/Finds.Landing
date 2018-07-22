@@ -10,8 +10,8 @@
 .redirect-to-index-button-top {
   position: absolute;
   z-index: 1001;
-  right: 50px;
-  top: 50px;
+  right: 40px;
+  top: 35px;
 
   display: block;
   padding: 5px;
@@ -62,7 +62,7 @@
   color: black;
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 768px) {
   #map {
     height: calc(100% - 40px);
   }
