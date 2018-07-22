@@ -1,3 +1,8 @@
 #map {
   height: 100%;
 }
+ 
+.freebie-title {
+  font-weight: bold;
+  font-size: 16px;
+}
