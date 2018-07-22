@@ -11,7 +11,7 @@ function initMap() {
   }).addTo(map);
 
   var wifiIcon = L.icon({
-    iconUrl: 'image/wifi-yellow.png',
+    iconUrl: 'image/wifi.png',
     iconSize: [23, 37],
   })
 
