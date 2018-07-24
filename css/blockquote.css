@@ -16,9 +16,10 @@ blockquote footer {
   margin-top: .5em;
   padding: 0;
   color: #333333;
-  font-size: 1em;
   text-align: left;
+  line-height: 1.5;
   font-style: italic;
+  font-size: 1em;
 }
 blockquote footer:before {
   content: '— ';
