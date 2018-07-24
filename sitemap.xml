@@ -9,7 +9,18 @@
 
 <url>
   <loc>https://freebee.by/</loc>
-  <lastmod>2018-07-17T07:08:00+00:00</lastmod>
+  <lastmod>2018-07-24T05:40:13+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://freebee.by/map.html</loc>
+  <lastmod>2018-07-24T05:40:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://freebee.by/index.html</loc>
+  <lastmod>2018-07-24T05:40:13+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
