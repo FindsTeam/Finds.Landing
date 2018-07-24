@@ -262,6 +262,24 @@
   z-index: 10;
 }
 
+.map-redirect {
+  position: absolute;
+  top: 27%;
+  right: 13%;
+  transform: rotate(180deg);
+
+  display: block;
+
+  font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.map-redirect > a {
+  color: white;
+  text-decoration: none;
+}
+
 .panel {
   position: relative;
 
@@ -311,7 +329,7 @@ section {
 }
 
 .icon-container {
-  width: 50%;
+  width: 60%;
 
   display: flex;
   flex-direction: row;
@@ -337,4 +355,12 @@ section {
 
 .vk {
   background-image: url("../image/vk.svg");
+}
+
+.map-icon {
+  outline: none;
+}
+
+.map-icon > img {
+  height: 50px;
 }
