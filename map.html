@@ -14,12 +14,12 @@
 
   <!-- Google Tag Manager -->
   <script>(function (w, d, s, l, i) {
-    w[l] = w[l] || []; w[l].push({
-      'gtm.start':
-        new Date().getTime(), event: 'gtm.js'
-    }); var f = d.getElementsByTagName(s)[0],
-      j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-        'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-NHXNCFJ');</script>
   <!-- End Google Tag Manager -->
 
@@ -74,26 +74,64 @@
   <meta name="theme-color" content="#ffffff">
 
   <link rel="stylesheet" href="./css/reset.css">
-  <link rel="stylesheet" href="./css/map.css">
+  <link rel="stylesheet" href="./css/map-page.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Condensed">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css" integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
     crossorigin="" />
   <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js" integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
     crossorigin=""></script>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
 </head>
 
 <body>
   <div id="map"></div>
-  <a href="./index.html" aria-label="return to index page" class="redirect-to-index-button-top">
-    &#8592;
+  <a href="./index.html" aria-label="return to index page" class="btn-floating btn-large waves-effect waves-light amber accent-3 to-index ">
+    <i class="large material-icons">arrow_back</i>
   </a>
-  <a href="./index.html" aria-label="return to index page" class="redirect-to-index-button-bottom">
-    Перейти к главной
-  </a>
+
+  <ul id="slide-out" class="sidenav">
+    <li>
+      <h5 class="sidebar-title">Поделитесь халявой с другими</h5>
+      <div class="user-view">
+        <div class="row">
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="first_name" placeholder="ул. Халявина, 7" type="text">
+                <label for="first_name">Место халявы</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <div class="chips chips-placeholder"></div>
+                <label class="active">Вид халявы</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="email" placeholder="ilovefree@gmail.com" type="email" class="validate">
+                <label for="email">Ваш email</label>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </li>
+  </ul>
+
+  <div class="row hide-on-large-only">
+    <button data-target="slide-out" class="contact-us sidenav-trigger btn waves-effect waves-light amber accent-3 col s12"> Нашли халяву? </button>
+  </div>
+  <button data-target="slide-out" class="contact-us-desktop hide-on-small-only hide-on-med-only sidenav-trigger btn waves-effect waves-light amber accent-3">
+  Нашли халяву? </button>
   <script src="./js/wifi-data.js"></script>
   <script src="./js/map.js"></script>
+  <script src="./js/map-page.js"></script>
 </body>
-<script> 
+<script>
   initMap();
 </script>
 
