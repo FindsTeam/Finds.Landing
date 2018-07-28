@@ -36,6 +36,15 @@ button.contact-us-desktop {
   font-weight: bold;
 }
 
+div.freebee-type  {
+  margin-top: 0.2rem;
+}
+
+.cancel, .submit {
+  font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
 ul.sidenav {
   z-index: 1001;
   width: 100%;
@@ -43,6 +52,7 @@ ul.sidenav {
 
 .sidebar-title {
   text-align: center;
+  padding-top: 20px;
 
   font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
   font-weight: bold;
@@ -62,6 +72,6 @@ ul.sidenav .user-view {
   }
 
   ul.sidenav {
-    width: 300px;
+    width: 400px;
   }
 }

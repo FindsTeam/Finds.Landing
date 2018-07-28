@@ -1,9 +1,19 @@
-document.addEventListener('DOMContentLoaded', function() {
-  var elems = document.querySelectorAll('.sidenav');
-  var sidenav = M.Sidenav.init(elems, {});
+document.addEventListener('DOMContentLoaded', function () {
+  var elem = document.querySelector('.sidenav');
+  var sidenav = M.Sidenav.init(elem, {});
 
-  elems = document.querySelectorAll('.chips');
-  M.Chips.init(elems, {
+  var cancelFeedbackButton = document.getElementById('feedback')
+    .querySelector('.cancel');
+
+  cancelFeedbackButton.addEventListener('click', function (e) {
+    e.preventDefault();
+
+    var sidenav = M.Sidenav.getInstance(elem);
+    sidenav.close();
+  });
+
+  var chips = document.querySelectorAll('.chips');
+  M.Chips.init(chips, {
     placeholder: 'WI-FI',
   });
 });
