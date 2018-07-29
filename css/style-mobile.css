@@ -7,12 +7,13 @@
 @media only screen and (max-width: 768px) {
   body {
     font-size: 0.85em;
-    height: 200vh;
     width: 100vw;
+    height: 200vh;
+    overflow-y: hidden;
   }
 
   .sky {
-    width: 100%;
+    width: 100vw;
     height: 200vh;
   }
 
@@ -26,35 +27,44 @@
   }
 
   .grass-back {
-    left: -3%;
+    left: 0;
+    width: 100%;
+    height: 100%;
   }
 
   .grass-middle {
-    top: 85%;
-    left: 10%;
+    top: 85%; 
+    left: 0;
     width: 100%;
+    height: 100%;
 
     transform: rotate(0);
   }
 
   .grass-front {
-    left: 0%;
+    left: 0;
+    right: 0;
     width: 100%;
+    height: 100%;
   }
 
   .plates {
-    width: 100%;
+    width: 100vw;
   }
 
   .roadsign {
     position: relative;
-    left: 4%;
+    left: 0;
   }
 
   .panel {
-    top: 5%;
-    width: 84%;
+    top: 0;
+    left: 5%;
+    width: 90%;
     height: auto;
+
+    margin-top: 5%;
+    margin-bottom: 5%;
   }
 
   .icon-container {

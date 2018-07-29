@@ -30,8 +30,7 @@ a {
   text-decoration: underline;
 }
 
-p,
-a {
+p {
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     font-size: 1.1em;
 }
