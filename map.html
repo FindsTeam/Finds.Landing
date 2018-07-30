@@ -60,7 +60,7 @@
   <meta http-equiv="content-type" content="text/html" charset="utf-8">
   <meta name="application-name" content="Freebee">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Freebee - сервис-карта для помощи в поиске бесплатных возможностей вокруг.">
+  <meta name="description" content="Freebee - приложение-карта для помощи в поиске бесплатных возможностей вокруг.">
   <title>Freebee - Карта халявы</title>
 
   <link rel="apple-touch-icon" sizes="180x180" href="image/favicon/apple-touch-icon.png">
@@ -87,33 +87,44 @@
 </head>
 
 <body>
-  <div id="map"></div>
+  <div id="map" class="map"></div>
   <a href="./index.html" aria-label="return to index page" class="btn-floating btn-large waves-effect waves-light amber accent-3 to-index ">
     <i class="large material-icons">arrow_back</i>
   </a>
 
   <ul id="slide-out" class="sidenav">
     <li>
-    <h5 class="sidebar-title">Поделитесь халявой с другими</h5>
+    <h5 class="sidebar-title">Поделитесь халявой с другими!</h5>
       <div class="user-view">
         <div class="row">
           <form id="feedback" class="col s12">
             <div class="row">
               <div class="input-field col s12">
-                <input id="first_name" placeholder="ул. Халявина, 7" type="text">
-                <label for="first_name">Место халявы</label>
+                <input id="feedback_address" placeholder="ул. Халявина, 7" type="text">
+                <label for="feedback_address">Место халявы</label>
               </div>
             </div>
             <div class="row">
               <div class="input-field col s12">
-                <div class="chips chips-placeholder"></div>
+                <div class="freebee-type chips chips-placeholder"></div>
                 <label class="active">Вид халявы</label>
               </div>
             </div>
             <div class="row">
               <div class="input-field col s12">
-                <input id="email" placeholder="ilovefree@gmail.com" type="email" class="validate">
-                <label for="email">Ваш email</label>
+                <input
+                  id="feedback_author"
+                  placeholder="Freebeeman"
+                  type="text"
+                  class="validate"
+                >
+                <label for="feedback_author">Автор</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input placeholder="Описание найденной халявы" id="feedback_description" type="text" class="validate">
+                <label for="feedback_description">Описание</label>
               </div>
             </div>
             <div class="container">
