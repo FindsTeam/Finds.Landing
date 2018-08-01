@@ -1,7 +1,7 @@
 .sky {
   position:absolute;
   width:100%;
-  background: #4B79A1;  /* fallback for old browsers */
+  background: #4B79A1;
   background: -webkit-linear-gradient(-15deg, #ff6d24, #5f6b55, #283E51, #0A2342);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(-15deg,#ff6d24, #5f6b55, #283E51, #0A2342); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background: -olinear-gradient(-15deg,#ff6d24, #5f6b55,  #283E51, #0A2342); 
@@ -271,8 +271,7 @@
   display: block;
 
   font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  font-size: 35px;
+  font-size: 2em;
 }
 
 .map-redirect > a {
