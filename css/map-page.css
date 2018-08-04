@@ -43,6 +43,7 @@ button.contact-us-desktop {
 
 div.freebee-type  {
   margin-top: 0.5rem;
+  margin-bottom: 0px;
 }
 
 .cancel, .submit {
@@ -56,13 +57,14 @@ ul.sidenav {
   z-index: 1001;
 }
 
-ul.sidenav > li {
+ul.sidenav > li.user-view {
+  padding-top: 0px;
   height: 100vh;
 }
 
 .sidebar-title {
   text-align: center;
-  padding-top: 20px;
+  padding-bottom: 10px;
 
   font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
   font-weight: bold;
