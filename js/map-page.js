@@ -1,6 +1,5 @@
 const api = 'https://freebee-api.herokuapp.com/api';
 
-
 document.addEventListener('DOMContentLoaded', function () {
   const elem = document.querySelector('.sidenav');
   const sidenav = M.Sidenav.init(elem, {});

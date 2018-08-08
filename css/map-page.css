@@ -7,9 +7,12 @@ html, body {
   height: calc(100% - 36px);
 }
 
-.freebie-title {
+.freebee-title {
   font-weight: bold;
-  font-size: 16px;
+}
+
+.freebee-point {
+  font-weight: bold;
 }
 
 a.to-index {
@@ -72,6 +75,18 @@ ul.sidenav > li.user-view {
 
 ul.sidenav .user-view {
   padding: 24px 16px 0;
+}
+
+div.leaflet-popup-content {
+  width: 250px;
+
+  font-size: 13px;
+}
+
+@media only screen and (min-width: 375px) {
+  div.leaflet-popup-content {
+    width: 300px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
