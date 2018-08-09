@@ -88,5 +88,14 @@ function getUserLocationSuccess(map) {
     ];
 
     map.setView(userPosition, 15);
+
+    const iconSelf = L.icon({
+      iconUrl: 'image/self.png',
+      iconSize: [30, 45],
+    });
+
+    const marker = L.marker(
+      userPosition,
+      { icon: iconSelf }).addTo(map);
   }
 }
