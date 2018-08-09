@@ -95,57 +95,62 @@
   <ul id="slide-out" class="sidenav">
     <li class="user-view">
     <h5 class="sidebar-title">Поделитесь халявой с другими!</h5>
-    <div class="row">
-        <div id="feedback" class="col s12">
-          <div class="row">
-            <div class="input-field col s12">
-              <input id="feedback_address" placeholder="ул. Халявина, 7" type="text" required>
-              <label for="feedback_address">Место халявы</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="input-field col s12">
-              <div class="freebee-type chips chips-placeholder"></div>
-              <label class="active">Вид халявы</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="input-field col s12">
-              <input
-                id="feedback_author"
-                placeholder="Freebeeman"
-                type="text"
-                class="validate"
-              >
-              <label for="feedback_author">Автор</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="input-field col s12">
-              <input placeholder="Описание найденной халявы" id="feedback_description" type="text" class="validate">
-              <label for="feedback_description">Описание</label>
-            </div>
-          </div>
-          <div class="container">
+      <form class="row">
+          <div id="feedback" class="col s12">
             <div class="row">
-              <button
-                tabindex="2"
-                class="cancel s5 btn waves-effect waves-light red accent-2 col"
-                type="reset"
-              >
-                Отменить
-              </button>
-              <button
-              tabindex="1"
-                class="submit offset-s2 s5 btn waves-effect waves-light amber accent-3 col"
-                type="submit"
-              >
-                Отправить
-              </button>
+              <div class="input-field col s12">
+                <input id="feedback_address" placeholder="ул. Халявина, 7" type="text" required>
+                <label for="feedback_address">Место халявы</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input
+                  id="feedback_type"
+                  placeholder="Туалет"
+                  type="text"
+                  class="validate"
+                >
+                <label class="active">Вид халявы</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input
+                  id="feedback_author"
+                  placeholder="Freebeeman"
+                  type="text"
+                  class="validate"
+                >
+                <label for="feedback_author">Автор</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input placeholder="Описание найденной халявы" id="feedback_description" type="text" class="validate">
+                <label for="feedback_description">Описание</label>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row">
+                <button
+                  tabindex="2"
+                  class="cancel s5 btn waves-effect waves-light red accent-2 col"
+                  type="reset"
+                >
+                  Отменить
+                </button>
+                <button
+                tabindex="1"
+                  class="submit offset-s2 s5 btn waves-effect waves-light amber accent-3 col"
+                  type="submit"
+                >
+                  Отправить
+                </button>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
+      </form>
     </li>
   </ul>
 
