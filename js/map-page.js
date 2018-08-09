@@ -57,12 +57,6 @@ document.addEventListener('DOMContentLoaded', function () {
       });
     })
   });
-
-  const chips = document.querySelectorAll('.chips');
-  M.Chips.init(chips, {
-    placeholder: 'WI-FI',
-    secondaryPlaceholder: ' ',
-  });
 });
 
 function createFeedbackObject() {
@@ -72,12 +66,8 @@ function createFeedbackObject() {
     .value;
   const description = document.getElementById('feedback_description')
     .value;
-
-  const chipsElem = document.querySelector('.chips');
-  const chips = M.Chips.getInstance(chipsElem);
-  const type = chips.chipsData.map(function (chip) {
-    return chip.tag;
-  });
+  const type = document.getElementById('feedback_type')
+    .value;
 
   return { address, author, description, type };
 }
