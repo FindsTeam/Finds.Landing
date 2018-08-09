@@ -1,4 +1,5 @@
-const api = 'https://freebee-api.herokuapp.com/api';
+// const api = 'https://freebee-api.herokuapp.com/api';
+const api = 'http://localhost:3000/api';
 
 document.addEventListener('DOMContentLoaded', function () {
   const elem = document.querySelector('.sidenav');
