@@ -1,6 +1,14 @@
 const api = 'https://freebee-api.herokuapp.com/api';
 
 document.addEventListener('DOMContentLoaded', function () {
+  let initialLocation = [53.9017, 27.5429];
+  const map = initMap(initialLocation);
+
+  if (Geolocation.supported) {
+    Geolocation.onsuccess = getUserLocationSuccess(map);
+    Geolocation.getCurrentPosition();
+  }
+
   const elem = document.querySelector('.sidenav');
   const sidenav = M.Sidenav.init(elem, {});
 
@@ -70,4 +78,24 @@ function createFeedbackObject() {
     .value;
 
   return { address, author, description, type };
+}
+
+function getUserLocationSuccess(map) {
+  return function () {
+    const userPosition = [
+      Geolocation.position.latitude,
+      Geolocation.position.longitude
+    ];
+
+    map.setView(userPosition, 15);
+
+    const iconSelf = L.icon({
+      iconUrl: 'image/self.png',
+      iconSize: [30, 45],
+    });
+
+    const marker = L.marker(
+      userPosition,
+      { icon: iconSelf }).addTo(map);
+  }
 }

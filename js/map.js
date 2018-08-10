@@ -1,6 +1,6 @@
-function initMap() {
+function initMap(initialLocation) {
   var containerId = 'map'
-  var location = [53.9017, 27.5429];
+  var location = initialLocation;
   var zoom = 12;
   var osmUrl = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
   var osmAttributes = 'Map data © <a href="https://openstreetmap.org">OpenStreetMap</a> contributors';
@@ -23,6 +23,8 @@ function initMap() {
     getMarkersSuccess(map, 'image/toilet.png', getToiletPopupLayoutAsString),
     getMarkersError
   );
+
+  return map;
 }
 
 // General data handlers
