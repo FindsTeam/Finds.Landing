@@ -154,6 +154,33 @@
     </li>
   </ul>
 
+  <div class="freebee-filter fixed-action-btn">
+    <button class="btn-floating btn-large amber accent-3">
+      <i class="large material-icons black-text">filter_list</i>
+    </button>
+    <ul>
+      <li>
+        <button id="filter-by-wifis" class="btn-floating grey lighten-1">
+          <i class="material-icons black-text">wifi</i>
+        </button>
+      </li>
+      <li>
+        <button id="filter-by-toilets" class="btn-floating grey lighten-1">
+          <i class="material-icons black-text">wc</i>
+        </button>
+      </li>
+      <li>
+        <button id="filter-clear" class="btn-floating grey lighten-1">
+          <img
+            class="default-filter active-filter"
+            src="./image/default-filter.png"
+            alt="default filter"
+          >
+        </button>
+      </li>
+    </ul>
+  </div>
+
   <div class="row hide-on-large-only">
     <button data-target="slide-out" type="button" class="contact-us sidenav-trigger btn waves-effect waves-light amber accent-3 col s12"> Нашли халяву? </button>
   </div>
@@ -161,10 +188,8 @@
     Нашли халяву?
   </button>
   <script src="./js/map.js"></script>
+  <script src="./js/data-handlers.js"></script>
   <script src="./js/map-page.js"></script>
 </body>
-<script>
-  initMap();
-</script>
 
 </html>
