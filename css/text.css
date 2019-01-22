@@ -23,16 +23,13 @@ p {
   text-indent: 1.5em;
   text-align: justify;
   margin: 1em 0.5em;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-size: 1.1em;
 }
 
 a {
   color: #d14942;
   text-decoration: underline;
-}
-
-p {
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-    font-size: 1.1em;
 }
 
 .text-center {
