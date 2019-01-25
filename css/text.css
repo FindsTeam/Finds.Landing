@@ -21,7 +21,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 1.7em;
 }
 
 h3 {
@@ -48,6 +48,7 @@ a {
 
 ul {
   list-style: disc;
+  margin-left: 1.5em;
 }
 
 li {

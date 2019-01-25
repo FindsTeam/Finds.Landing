@@ -8,7 +8,7 @@ body {
 .navigation-bar {
   position: fixed;
   background-color: #f4c844;
-  padding: 0.4em;
+  padding: 0.3em;
   text-align: center;
   width: 100%;
   z-index: 1;
@@ -45,7 +45,7 @@ body {
 }
 
 .map-icon {
-  height: 1.3em;
+  height: 1.2em;
   width: auto;
   margin: -6px 6px -6px 0;
 }
@@ -91,7 +91,23 @@ body {
   color: #222222;
 }
 
-.content {
+.links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: space-around;
+  align-items: center;
+
+  background-color: #dddddd;
+}
+
+.link-icon {
+  width: 3em;
+  margin: 2em;
+}
+
+.description {
   height: auto;
   width: 100%;
 
@@ -110,4 +126,8 @@ body {
 
 .row {
   width: 55%;
+}
+
+.faq {
+  text-align: center;
 }
