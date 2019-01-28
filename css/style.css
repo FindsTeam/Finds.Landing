@@ -37,11 +37,16 @@ body {
 }
 
 .map-link:hover {
-  background-color: #f8cc48;
+  background-color: #face49;
+  text-decoration: none;
+  transition: 200ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 200ms;
+  -webkit-transition-timing-function: ease-in-out;
 }
 
 .map-link:active {
-  background-color: #f0c440;
+  background-color: #dbb238;
 }
 
 .map-icon {
@@ -107,6 +112,21 @@ body {
   margin: 2em;
 }
 
+.link-icon svg:hover {
+  fill: #4caf50;
+  transition: 200ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 200ms;
+  -webkit-transition-timing-function: ease-in-out;
+}
+.link-icon:active svg {
+  fill: #419944;
+  transition: 200ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 200ms;
+  -webkit-transition-timing-function: ease-in-out;
+}
+
 .description {
   height: auto;
   width: 100%;
@@ -165,6 +185,6 @@ footer {
 }
 
 .footer-link {
-  font-size: 0.9em;
+  font-size: 0.95em;
   margin-top: 0.3em;
 }
