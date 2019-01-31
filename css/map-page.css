@@ -2,21 +2,36 @@ html, body {
   height: 100%;
 }
 
+.brand-bg-color-1 {
+  background-color: #F4C844;
+}
+
+.brand-bg-color-2 {
+  background-color: #D14942;
+}
+
+.brand-txt-color-1 {
+  color: #000;
+}
+
 /* 36px - button size in materialize */
 .map {
   height: calc(100% - 36px);
 }
 
-.freebie-title {
+.freebee-title {
   font-weight: bold;
-  font-size: 16px;
+}
+
+.freebee-point {
+  font-weight: bold;
 }
 
 a.to-index {
   position: absolute;
-  z-index: 1001;
-  right: 4%;
   top: 2%;
+  right: 4%;
+  z-index: 1001;
 }
 a.to-index > i {
   color: black;
@@ -27,6 +42,26 @@ button.contact-us {
 
   font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
   font-weight: bold;
+}
+
+div.freebee-filter {
+  position: absolute;
+  top: 2%;
+  left: 4%;
+  z-index: 1001;
+
+  width: 56px;
+
+  padding-top: 0px;
+}
+
+.default-filter {
+  height: 40px;
+  width: 40px;
+}
+
+.active-filter {
+  background: #F4C844;
 }
 
 button.contact-us-desktop {
@@ -54,7 +89,7 @@ div.freebee-type  {
 ul.sidenav {
   height: 100vh;
   width: 100%;
-  z-index: 1001;
+  z-index: 1100;
 }
 
 ul.sidenav > li.user-view {
@@ -74,6 +109,18 @@ ul.sidenav .user-view {
   padding: 24px 16px 0;
 }
 
+div.leaflet-popup-content {
+  width: 250px;
+
+  font-size: 13px;
+}
+
+@media only screen and (min-width: 375px) {
+  div.leaflet-popup-content {
+    width: 300px;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   #map {
     height: 100%;
@@ -81,6 +128,10 @@ ul.sidenav .user-view {
 
   a.to-index {
     right: 2%;
+  }
+
+  div.freebee-filter {
+    left: 2%;
   }
 
   ul.sidenav {

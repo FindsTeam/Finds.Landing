@@ -88,66 +88,98 @@
 
 <body>
   <div id="map" class="map"></div>
-  <a href="./index.html" aria-label="return to index page" class="btn-floating btn-large waves-effect waves-light amber accent-3 to-index ">
+  <a href="/" aria-label="return to index page" class="btn-floating btn-large waves-effect waves-light amber accent-3 to-index ">
     <i class="large material-icons">arrow_back</i>
   </a>
 
   <ul id="slide-out" class="sidenav">
     <li class="user-view">
     <h5 class="sidebar-title">Поделитесь халявой с другими!</h5>
-    <div class="row">
-        <div id="feedback" class="col s12">
-          <div class="row">
-            <div class="input-field col s12">
-              <input id="feedback_address" placeholder="ул. Халявина, 7" type="text" required>
-              <label for="feedback_address">Место халявы</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="input-field col s12">
-              <div class="freebee-type chips chips-placeholder"></div>
-              <label class="active">Вид халявы</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="input-field col s12">
-              <input
-                id="feedback_author"
-                placeholder="Freebeeman"
-                type="text"
-                class="validate"
-              >
-              <label for="feedback_author">Автор</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="input-field col s12">
-              <input placeholder="Описание найденной халявы" id="feedback_description" type="text" class="validate">
-              <label for="feedback_description">Описание</label>
-            </div>
-          </div>
-          <div class="container">
+      <form class="row">
+          <div id="feedback" class="col s12">
             <div class="row">
-              <button
-                tabindex="2"
-                class="cancel s5 btn waves-effect waves-light red accent-2 col"
-                type="reset"
-              >
-                Отменить
-              </button>
-              <button
-              tabindex="1"
-                class="submit offset-s2 s5 btn waves-effect waves-light amber accent-3 col"
-                type="submit"
-              >
-                Отправить
-              </button>
+              <div class="input-field col s12">
+                <input id="feedback_address" placeholder="ул. Халявина, 7" type="text" required>
+                <label for="feedback_address">Место халявы</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input
+                  id="feedback_type"
+                  placeholder="Туалет"
+                  type="text"
+                  class="validate"
+                >
+                <label class="active">Вид халявы</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input
+                  id="feedback_author"
+                  placeholder="Freebeeman"
+                  type="text"
+                  class="validate"
+                >
+                <label for="feedback_author">Автор</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input placeholder="Описание найденной халявы" id="feedback_description" type="text" class="validate">
+                <label for="feedback_description">Описание</label>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row">
+                <button
+                  tabindex="2"
+                  class="cancel s5 btn waves-effect waves-light red accent-2 col"
+                  type="reset"
+                >
+                  Отменить
+                </button>
+                <button
+                tabindex="1"
+                  class="submit offset-s2 s5 btn waves-effect waves-light amber accent-3 col"
+                  type="submit"
+                >
+                  Отправить
+                </button>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
+      </form>
     </li>
   </ul>
+
+  <div class="freebee-filter fixed-action-btn">
+    <button class="btn-floating btn-large amber accent-3">
+      <i class="large material-icons black-text">filter_list</i>
+    </button>
+    <ul>
+      <li>
+        <button id="filter-by-wifis" class="btn-floating grey lighten-1">
+          <i class="material-icons black-text">wifi</i>
+        </button>
+      </li>
+      <li>
+        <button id="filter-by-toilets" class="btn-floating grey lighten-1">
+          <i class="material-icons black-text">wc</i>
+        </button>
+      </li>
+      <li>
+        <button id="filter-clear" class="btn-floating grey lighten-1">
+          <img
+            class="default-filter active-filter"
+            src="./image/default-filter.png"
+            alt="default filter"
+          >
+        </button>
+      </li>
+    </ul>
+  </div>
 
   <div class="row hide-on-large-only">
     <button data-target="slide-out" type="button" class="contact-us sidenav-trigger btn waves-effect waves-light amber accent-3 col s12"> Нашли халяву? </button>
@@ -155,12 +187,9 @@
   <button data-target="slide-out" type="button" class="contact-us-desktop hide-on-small-only hide-on-med-only sidenav-trigger btn waves-effect waves-light amber accent-3">
     Нашли халяву?
   </button>
-  <script src="./js/wifi-data.js"></script>
   <script src="./js/map.js"></script>
+  <script src="./js/data-handlers.js"></script>
   <script src="./js/map-page.js"></script>
 </body>
-<script>
-  initMap();
-</script>
 
 </html>
