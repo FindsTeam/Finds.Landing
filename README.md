@@ -8,7 +8,7 @@ It's a web page designed to tell more about Finds plarform. Currently could be f
 
 Other links:
 
-* [Small VK public page](https://vk.com/freebeeapp);
+* [Small VK public page](https://vk.com/findsapp);
 * [Finds at Social Weekend Hackathon](http://telegra.ph/Social-Weekend-Hackathon--kak-ehto-bylo-02-26).
 
 ## Getting started
@@ -16,7 +16,7 @@ Other links:
 Clone project to your computer.
 
 ```
-$ git clone https://github.com/FreebeeTeam/Finds.Landing.git
+$ git clone https://github.com/FindsTeam/Finds.Landing.git
 ```
 
 ## Deployment
