@@ -2,4 +2,4 @@ User-agent: *
 
 Disallow:
 
-Sitemap: https://freebee.by/sitemap.xml
+Sitemap: https://finds.by/sitemap.xml
