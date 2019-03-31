@@ -41,8 +41,6 @@ body {
   text-decoration: none;
   transition: 200ms;
   transition-timing-function: ease-in-out;
-  -webkit-transition: 200ms;
-  -webkit-transition-timing-function: ease-in-out;
 }
 
 .map-link:active {
@@ -71,6 +69,7 @@ body {
   color: #222222;
   text-decoration: none;
   padding: 10px 20px;
+  border-radius: 0.2em;
 }
 
 .arrow-link:hover {

@@ -4,7 +4,7 @@
     margin-bottom: 0.5em;
   }
 
-  .main-screen {
+  .main-screen-header {
     width: 100%;
     flex-direction: column;
     align-content: center;
@@ -48,7 +48,7 @@
     width: 90%;
   }
 
-  footer .column:nth-child(2) {
-    display: none;
+  footer {
+    flex-direction: column;
   }
 }
