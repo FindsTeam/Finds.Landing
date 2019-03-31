@@ -34,6 +34,10 @@
     color: #222222;
   }
 
+  .github-button {
+    display: none;
+  }
+
   .link-icon {
     width: 3em;
     margin: 2em 1.5em;
@@ -51,6 +55,14 @@
   footer {
     flex-direction: column;
     align-items: center;
-    margin-top: 0;
+    padding-bottom: 2em;
+  }
+
+  .column {
+    margin-top: 2em;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
   }
 }
