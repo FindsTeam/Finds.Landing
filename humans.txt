@@ -1,0 +1,30 @@
+/* TEAM */
+                        
+Author, Developer: George Puisha
+Telegram: @arisste
+Location: Minsk, Belarus
+
+Developer: Artem Dadychenko
+Telegram: @adadychenko            
+Location: Minsk, Belarus
+
+/* THANKS */
+
+Developer: Daniil Chernyshev
+Location: Minsk, Belarus
+
+Marketer: Egor Sulitsky
+Location: Minsk, Belarus
+
+UI/UX Designer: Anastasiya Birulya
+Location: Minsk, Belarus
+
+UI/UX Designer: Kseniya Borisevich
+Location: Minsk, Belarus
+                       
+/* SITE */
+
+Last update: 05.07.2019
+Language: Russian
+Doctype: HTML5
+IDE: Visual Studio Code
