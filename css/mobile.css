@@ -4,7 +4,7 @@
     margin-bottom: 0.5em;
   }
 
-  .main-screen {
+  .main-screen-header {
     width: 100%;
     flex-direction: column;
     align-content: center;
@@ -34,6 +34,10 @@
     color: #222222;
   }
 
+  .github-button {
+    display: none;
+  }
+
   .link-icon {
     width: 3em;
     margin: 2em 1.5em;
@@ -48,7 +52,17 @@
     width: 90%;
   }
 
-  footer .column:nth-child(2) {
-    display: none;
+  footer {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2em;
+  }
+
+  .column {
+    margin-top: 2em;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
   }
 }
