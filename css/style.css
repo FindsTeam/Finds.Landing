@@ -226,7 +226,7 @@ a:active > .link-icon > svg {
 }
 
 .about-platform {
-  padding: 6em;
+  padding: 5em 6em 7em;
 
   background-color: #111111;
 
@@ -238,9 +238,12 @@ a:active > .link-icon > svg {
   align-items: center;
 }
 
+.about-platform a {
+  font-size: 16px;
+}
+
 .application-container {
-  margin: 4em 0;
-  
+  margin: 2em 0;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -251,7 +254,7 @@ a:active > .link-icon > svg {
 
 .line {
   width: 70%;
-  margin: 3em 0;
+  margin: 4em 0;
   border-top: 2px dashed #ffda29;
 }
 
@@ -268,8 +271,12 @@ a:active > .link-icon > svg {
   align-items: center;
 }
 
-.application-image {
+.application-image-map {
   height: 200px;
+}
+
+.application-image-phone {
+  height: 256px;
 }
 
 .application-description {
@@ -282,9 +289,10 @@ a:active > .link-icon > svg {
 }
 
 .application-link {
+  margin: 1em;
   color: #ffda29;
   text-decoration: none;
-  font-size: 1.1em;
+  font-size: 16px;
 }
 
 .application-link:hover {
@@ -329,7 +337,7 @@ a:active > .link-icon > svg {
 .contacts-container a {
   color: #ffda29;
   text-decoration: none;
-  font-size: 1.1em;
+  font-size: 16px;
 }
 
 .contacts-container a:hover {
