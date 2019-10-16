@@ -150,7 +150,7 @@ header {
   color: #ffda29;
 }
 
-.social-links {
+.links-container {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
