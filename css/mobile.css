@@ -1,3 +1,81 @@
 @media only screen and (min-width: 320px) and (max-width: 1024px) {
+  .anchor-links {
+    margin-left: 2em;
+  }
+
+  .map-link {
+    margin-right: 2em;
+  }
+
+  .main-logo {
+    width: 256px;
+    max-width: 60vw;
+    height: auto;
+  }
+
+  .about-project {
+    padding: 1em 0 3em;
+  }
+
+  .description {
+    width: 100%;
+    padding: 0;
+  }
+
+  .row > h3 {
+    text-align: center;
+    text-indent: 0;
+    margin-bottom: 1.5em;
+  }
+
+  .about-platform {
+    padding: 4em 2.5em;
+  }
   
+  .application-container {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .application-description, .application-visual {
+    width: 100%;
+  }
+
+  .line {
+    margin: 3em 0 4em;
+  }
+
+  .application-link {
+    margin: 2em 0;
+  }
+
+  .application-text {
+    margin: 0 0.5em 1em;
+    text-align: justify;
+  }
+
+  .application-image-map {
+    width: 80vw;
+    height: auto;
+  }
+
+  .last {
+    display: none;
+  }
+
+  .contacts {
+    padding: 0 2.5em 5em;
+  }
+
+  .contacts-container {
+    padding: 1em;
+  }
+
+  .footer-logo-container {
+    display: none;
+  }
+
+  .column {
+    margin: 0 1em;
+  }
 }
