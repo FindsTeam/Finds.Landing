@@ -91,7 +91,7 @@ header {
 }
 
 .header-link, .header-divider {
-  color: #ffda29;
+  color: #e0b800;
 }
 
 .header-divider {
@@ -105,12 +105,11 @@ header {
 }
 
 .header-link:hover {
-  color: #ffda29;
   text-decoration: underline;
 }
 
 .header-link:active {
-  color: #d4b100;
+  color: #ffda29;
 }
 
 .main-screen {
@@ -147,7 +146,7 @@ header {
 }
 
 .main-logo-title > q {
-  color: #ffda29;
+  color: #f5c900;
 }
 
 .links-container {
@@ -165,7 +164,7 @@ header {
 
 .link-icon svg {
   width: 2.3em;
-  fill: rgb(255, 219, 0);
+  fill: #e0b800;
 }
 a:hover > .link-icon > svg {
   transform: rotate(360deg);
@@ -175,7 +174,7 @@ a:hover > .link-icon > svg {
   -webkit-transition-timing-function: ease-in-out;
 }
 a:active > .link-icon > svg {
-  fill: #d4b100;
+  fill: #ffda29;
   transition: 200ms;
   transition-timing-function: ease-in-out;
   -webkit-transition: 200ms;
@@ -195,7 +194,7 @@ a:active > .link-icon > svg {
 
 .title {
   margin: 2.5em 0;
-  color: #ffda29;
+  color: #f5ca00;
 }
 
 .about-project {
@@ -209,7 +208,7 @@ a:active > .link-icon > svg {
   align-content: stretch;
   align-items: center;
 
-  background-color: #e2e2e2;
+  background-color: #2b2b2b;
 }
 
 .description {
@@ -218,11 +217,24 @@ a:active > .link-icon > svg {
   padding-top: 2em;
   padding-bottom: 4em;
 
-  background-color: #dfdfdf;
+  background-color: #303030;
 }
 
 .row {
   padding: 0 2.5em;
+}
+
+.row a {
+  color: #ffd62e;
+  text-decoration: none;
+}
+
+.row a:hover {
+  text-decoration: underline;
+}
+
+.row a:active {
+  color: #ffda29;
 }
 
 .about-platform {
@@ -255,7 +267,7 @@ a:active > .link-icon > svg {
 .line {
   width: 70%;
   margin: 4em 0;
-  border-top: 2px dashed #ffda29;
+  border-top: 2px dashed #e0b800;
 }
 
 .application-description, .application-visual {
@@ -290,7 +302,7 @@ a:active > .link-icon > svg {
 
 .application-link {
   margin: 1em;
-  color: #ffda29;
+  color: #e0b800;
   text-decoration: none;
   font-size: 16px;
 }
@@ -301,11 +313,11 @@ a:active > .link-icon > svg {
 }
 
 .application-link:active {
-  color: #d4b100;
+  color: #ffda29;
 }
 
 .application-text {
-  color: #e2e2e2;
+  color: #bdbdbd;
   text-align: center;
 }
 
@@ -322,20 +334,24 @@ a:active > .link-icon > svg {
   align-items: center;
 }
 
+.contacts > h1 {
+  color: #dbb400;
+}
+
 .contacts-container {
   height: 100%;
 
   padding: 4em;
 
-  border: 2px dashed #ffda29;
+  border: 2px dashed #dbb400;
 }
 
 .contacts-container li {
-  color: #e2e2e2;
+  color: #b8b8b8;
 }
 
 .contacts-container a {
-  color: #ffda29;
+  color: #dbb400;
   text-decoration: none;
   font-size: 16px;
 }
@@ -345,7 +361,7 @@ a:active > .link-icon > svg {
 }
 
 .contacts-container a:active {
-  color: #d4b100;
+  color: #ffda29;
 }
 
 footer {
@@ -398,13 +414,13 @@ footer {
 }
 
 .column h4 {
-  color: #e2e2e2;
+  color: #b3b3b3;
 }
 
 .footer-link {
   font-size: 0.95em;
   margin-top: 0.3em;
-  color: #ffda29;
+  color: #d6b000;
   text-decoration: none;
 }
 
@@ -413,7 +429,7 @@ footer {
 }
 
 .footer-link:active {
-  color: #d4b100;
+  color: #ffda29;
 }
 
 
