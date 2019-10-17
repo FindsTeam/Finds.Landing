@@ -50,9 +50,9 @@ header {
   background-color: #111111;
 
   display: flex;
-  flex-direction: row;
+  flex-direction: column ;
   flex-wrap: nowrap;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-content: flex-start;
   align-items: center;
 }
@@ -100,7 +100,7 @@ header {
 }
 
 .header-link {
-  padding: 12px 4px;
+  padding: 1.5em 0.5em;
   text-decoration: none;
 }
 
