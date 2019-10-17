@@ -8,6 +8,9 @@ Developer: Artem Dadychenko
 Telegram: @adadychenko            
 Location: Minsk, Belarus
 
+Developer: Andrey Zarinov           
+Location: Minsk, Belarus
+
 /* THANKS */
 
 Developer: Daniil Chernyshev
