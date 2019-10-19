@@ -73,6 +73,10 @@ header {
   margin-left: 5em;
 }
 
+.mobile-map {
+  display: none;
+}
+
 .map-link {
   display: flex;
   flex-direction: row;

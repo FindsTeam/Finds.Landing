@@ -3,8 +3,21 @@
     margin-left: 2em;
   }
 
+  .mobile-map {
+    display: block;
+  }
+
+  .anchor-links {
+    margin: 0;
+  }
+
+  .header-links {
+    justify-content: center;
+    align-content: center;
+  }
+
   .map-link {
-    margin-right: 2em;
+    display: none;
   }
 
   .main-logo {
