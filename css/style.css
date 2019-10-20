@@ -142,6 +142,8 @@ header {
 
 .main-logo-title > q {
   color: #f5c900;
+  opacity: 1;
+  transition: 1s opacity;
 }
 
 .links-container {
