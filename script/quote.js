@@ -27,15 +27,27 @@ const quotes = [
   'прямо за мечтой',
   'хтосьці ёсць няма кагосьці'
 ];
-
+const state = {
+  on: '1',
+  off: '0'
+};
 const randomIndex = length => Math.floor(Math.random() * length);
+const fadeout = element => element.style.opacity = state.off;
+const fadein = element => element.style.opacity = state.on;
 
 (function () {
-  const element = document.getElementById('quote');
+  setTimeout(() => {
+    const element = document.getElementById('quote');
 
-  if (element) {
-    const quote = quotes[randomIndex(quotes.length)];
-    
-    element.innerText = `> ${ quote } <`;
-  }
+    if (element) {
+      fadeout(element);
+
+      setTimeout(() => {
+        const quote = quotes[randomIndex(quotes.length)];
+      
+        element.innerText = `> ${ quote } <`;
+        fadein(element);
+      }, 1000);
+    }
+  }, 8000);
 }());
