@@ -273,8 +273,15 @@ a:active > .link-icon > svg {
   align-items: center;
 }
 
-.application-image-map {
-  height: 200px;
+.visual-link {
+  text-decoration: none;
+  color: transparent;
+}
+
+.emoji {
+  height: 64px;
+  margin: 0.5em;
+  animation: pulse 10s infinite;
 }
 
 .application-image-phone {
