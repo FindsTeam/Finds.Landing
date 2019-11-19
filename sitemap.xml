@@ -9,18 +9,13 @@
 
 <url>
   <loc>https://finds.by/</loc>
-  <lastmod>2018-07-24T05:40:13+00:00</lastmod>
+  <lastmod>2019-11-01T14:49:41+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://finds.by/map.html</loc>
-  <lastmod>2018-07-24T05:40:13+00:00</lastmod>
+  <loc>https://finds.by/map/</loc>
+  <lastmod>2019-11-01T14:49:41+00:00</lastmod>
   <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://finds.by/index.html</loc>
-  <lastmod>2018-07-24T05:40:13+00:00</lastmod>
-  <priority>0.64</priority>
 </url>
 
 
