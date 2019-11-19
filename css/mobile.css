@@ -91,4 +91,8 @@
   .column {
     margin: 0 1em;
   }
+
+  .emoji {
+    height: 48px;
+  }
 }
