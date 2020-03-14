@@ -23,8 +23,13 @@
          webvisor:true
     });
   </script>
-  <noscript><div><img src="https://mc.yandex.ru/watch/49716634" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-  <!-- /Yandex.Metrika counter -->
+  <script async src="./script/announcement.js"></script>
+  <script src="./script/quote.js" defer></script>
+  <noscript>
+    <div>
+      <img src="https://mc.yandex.ru/watch/49716634" style="position:absolute; left:-9999px;" alt="" />
+    </div>
+  </noscript>
 
   <meta http-equiv="content-type" content="text/html" charset="utf-8">
   <meta name="application-name" content="Finds">
@@ -54,6 +59,12 @@
 </head>
 <body>
   <header>
+    <div class="announcement" id="announcement">
+      <div class="announcement-text">
+        <h6>Привет! В связи с эпидемией коронавируса, на нашем Telegram-канале вышел список советов и небольшое объявление. <a href="https://t.me/findsnews/213">Ссылка на пост →</a></h6>
+      </div>
+      <button class="announcement-close" id="announcement-close">✖</button>
+    </div>
     <div class="header-links">
       <nav class="anchor-links">
         <a class="header-link" href="#project" title="Раздел, где мы рассказываем о нашей инициативе">О проекте</a>
