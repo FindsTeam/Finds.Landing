@@ -1,4 +1,17 @@
 @media only screen and (min-width: 320px) and (max-width: 1024px) {
+  .announcement {
+    justify-content: space-around;
+    min-height: 96px;
+  }
+
+  .announcement-text {
+    margin-left: 1.5em;
+  }
+
+  .announcement-close {
+    margin-right: calc(1.5em - 12px);
+  }
+
   .anchor-links {
     margin-left: 2em;
   }
