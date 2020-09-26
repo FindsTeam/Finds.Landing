@@ -1,29 +1,15 @@
 ﻿<!DOCTYPE html>
 <html lang="ru">
 <head>
+  <!-- GOOGLE TAG START -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122766115-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag("js", new Date());
+  <script async src="./script/third-party/googleTag.js"></script>
+  <!-- GOOGLE TAG END -->
 
-    gtag('config', 'UA-122766115-1', { 'optimize_id': 'GTM-59ZBHKC'});
-  </script>
+  <!-- Yandex.Metrika START  -->
+  <script async src="./script/third-party/yandexM.js"></script>
+  <!-- Yandex.Metrika END  -->
 
-  <!-- Yandex.Metrika counter -->
-  <script type="text/javascript" >
-    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-    m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-    ym(49716634, "init", {
-         clickmap:true,
-         trackLinks:true,
-         accurateTrackBounce:true,
-         webvisor:true
-    });
-  </script>
-  <script async src="./script/announcement.js"></script>
   <script src="./script/quote.js" defer></script>
   <noscript>
     <div>
@@ -46,7 +32,7 @@
   <link rel="icon" type="image/png" sizes="16x16" href="./image/favicon/favicon-16x16.png">
   <link rel="mask-icon" href="./image/favicon/safari-pinned-tab.svg" color="#ffda29">
   <link rel="manifest" href="./site.webmanifest">
-  <link type="text/plain" rel="author" href="http://domain/humans.txt">
+  <link type="text/plain" rel="author" href="https://finds.by/humans.txt">
 
   <meta name="msapplication-TileColor" content="#ffda29">
   <meta name="theme-color" content="#000000">
@@ -54,17 +40,11 @@
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/text.css">
-  <link rel="stylesheet" href="./css/mobile.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Condensed">
+  <link rel="stylesheet" href="./css/mobile.css" media="screen and (min-width: 320px) and (max-width: 1024px)">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Condensed" media="screen">
 </head>
 <body>
   <header>
-    <div class="announcement" id="announcement">
-      <div class="announcement-text">
-        <h6>Привет! В связи с эпидемией коронавируса, на нашем Telegram-канале вышел список советов и небольшое объявление. <a href="https://t.me/findsnews/213">Ссылка на пост →</a></h6>
-      </div>
-      <button class="announcement-close" id="announcement-close">✖</button>
-    </div>
     <div class="header-links">
       <nav class="anchor-links">
         <a class="header-link" href="#project" title="Раздел, где мы рассказываем о нашей инициативе">О проекте</a>
