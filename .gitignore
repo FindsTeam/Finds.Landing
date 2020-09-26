@@ -243,4 +243,5 @@ xcuserdata/
 
 # End of https://www.gitignore.io/api/reactnative,visualstudiocode
 .vscode/settings.json
+.idea
 
